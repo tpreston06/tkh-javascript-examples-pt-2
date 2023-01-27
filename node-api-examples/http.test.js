@@ -31,7 +31,7 @@ describe("Testing the server", () => {
                     throw err;
                 } else {
                     // console.log(response.body.data.name);
-                    expect(response.body.data.name).toBe("jose");
+                    expect(response.body.data.name).toBe("tia");
                     done();
                 } 
             })
